@@ -1,0 +1,232 @@
+{
+  "books": [
+    {
+      "title": "prueba uwu",
+      "description": "descripción de uwu",
+      "tags": ["prueba", "dev"],
+
+      "pages": [
+        {
+          "background": "/img/background1.png",
+          "code": "a",
+          "name": "KelBoceto",
+          "img": "/img/saludo.png",
+          "dialog": "Hola ${name}, Soy KelBoceto y te mostraré este pequeño prototipo donde puedes tomar decisiones, entonces quieres continuar?",
+          "options": [
+            {
+              "text": "Sí",
+              "actionCode": "b"
+            },
+            {
+              "text": "No",
+              "actionCode": "c"
+            }
+          ]
+        },
+        {
+          "background": "/img/background1.png",
+          "code": "b",
+          "name": "KelBoceto",
+          "img": "/img/verdeneutral.png",
+          "dialog": "Básicamente se trata de seguir una historia que cambia según lo que tú decidas, por ejemplo dime qué ropa crees que me quedaría mejor?",
+          "options": [
+            {
+              "text": "Verde",
+              "actionCode": "b1"
+            },
+            {
+              "text": "Rojo",
+              "actionCode": "b2"
+            },
+            {
+              "text": "Azul",
+              "actionCode": "b3"
+            }
+          ]
+        },
+        {
+          "background": "/img/background1.png",
+          "code": "b1",
+          "name": "KelBoceto",
+          "img": "/img/verdepose.png",
+          "dialog": "Bueno ya estaba vestido así, pero qué tal? Cómo me veo",
+          "options": [
+            {
+              "text": "Te ves hermoso",
+              "actionCode": "b1a"
+            }
+          ]
+        },
+        {
+          "background": "/img/background1.png",
+          "code": "b2",
+          "name": "KelBoceto",
+          "img": "/img/rojopose.png",
+          "dialog": "Me encanta el rojo, qué tal me veo?",
+          "options": [
+            {
+              "text": "Te ves hermoso",
+              "actionCode": "b2a"
+            }
+          ]
+        },
+        {
+          "background": "/img/background1.png",
+          "code": "b3",
+          "name": "KelBoceto",
+          "img": "/img/azulpose.png",
+          "dialog": "Hey el azul es mi tercer color favorito, me veo guapo?",
+          "options": [
+            {
+              "text": "Te ves hermoso",
+              "actionCode": "b3a"
+            }
+          ]
+        },
+        {
+          "background": "/img/background1.png",
+          "code": "b1a",
+          "name": "KelBoceto",
+          "img": "/img/verdeneutral.png",
+          "dialog": "Bueno a parte de cambiarme a mi también puedes cambiar el fondo, dime a dónde te gustaría ir?",
+          "options": [
+            {
+              "text": "Al desierto",
+              "actionCode": "b1a1"
+            },
+            {
+              "text": "A la Nieve",
+              "actionCode": "b1a2"
+            }
+          ]
+        },
+        {
+          "background": "/img/background1.png",
+          "code": "b2a",
+          "name": "KelBoceto",
+          "img": "/img/rojoneutral.png",
+          "dialog": "Bueno a parte de cambiarme a mi también puedes cambiar el fondo, dime a dónde te gustaría ir?",
+          "options": [
+            {
+              "text": "Al desierto",
+              "actionCode": "b2a1"
+            },
+            {
+              "text": "A la nieve",
+              "actionCode": "b2a2"
+            }
+          ]
+        },
+        {
+          "background": "/img/background1.png",
+          "code": "b3a",
+          "name": "KelBoceto",
+          "img": "/img/azulneutral.png",
+          "dialog": "Bueno a parte de cambiarme a mi también puedes cambiar el fondo, dime a dónde te gustaría ir?",
+          "options": [
+            {
+              "text": "Al desierto",
+              "actionCode": "b3a1"
+            },
+            {
+              "text": "A la nieve",
+              "actionCode": "b3a2"
+            }
+          ]
+        },
+        {
+          "background": "/img/desierto.png",
+          "code": "b1a1",
+          "name": "KelBoceto",
+          "img": "/img/verdeneutral.png",
+          "dialog": "Ufff hace calor",
+          "options": [
+            {
+              "text": "Empezar de nuevo",
+              "actionCode": "a"
+            }
+          ]
+        },
+        {
+          "background": "/img/desierto.png",
+          "code": "b2a1",
+          "name": "KelBoceto",
+          "img": "/img/rojoneutral.png",
+          "dialog": "Ufff hace calor",
+          "options": [
+            {
+              "text": "Empezar de nuevo",
+              "actionCode": "a"
+            }
+          ]
+        },
+        {
+          "background": "/img/desierto.png",
+          "code": "b3a1",
+          "name": "KelBoceto",
+          "img": "/img/azulneutral.png",
+          "dialog": "Ufff hace calor",
+          "options": [
+            {
+              "text": "Empezar de nuevo",
+              "actionCode": "a"
+            }
+          ]
+        },
+        {
+          "background": "/img/nieve.png",
+          "code": "b1a2",
+          "name": "KelBoceto",
+          "img": "/img/verdeneutral.png",
+          "dialog": "Brrrr que frío",
+          "options": [
+            {
+              "text": "Empezar de nuevo",
+              "actionCode": "a"
+            }
+          ]
+        },
+        {
+          "background": "/img/nieve.png",
+          "code": "b2a2",
+          "name": "KelBoceto",
+          "img": "/img/rojoneutral.png",
+          "dialog": "Brrrr que frío",
+          "options": [
+            {
+              "text": "Empezar de nuevo",
+              "actionCode": "a"
+            }
+          ]
+        },
+        {
+          "background": "/img/nieve.png",
+          "code": "b3a2",
+          "name": "KelBoceto",
+          "img": "/img/azulneutral.png",
+          "dialog": "Brrrr que frío",
+          "options": [
+            {
+              "text": "Empezar de nuevo",
+              "actionCode": "a"
+            }
+          ]
+        },
+
+        {
+          "background": "/img/background1.png",
+          "code": "c",
+          "name": "KelBoceto",
+          "img": "/img/nomeimporta.png",
+          "dialog": "La verdad no me importa que no quieras, continuaremos de todas formas",
+          "options": [
+            {
+              "text": "Bueno xD",
+              "actionCode": "b"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
